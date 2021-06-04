@@ -3,7 +3,7 @@ The idea is a small carousel with photos from people who shared their thoughts a
 rated their experience.
 
 ---
-
+Live demo: https://keen-nightingale-531d4f.netlify.app/
 # Built using Svelte
 
 This project was fully built with Svelte and uses vtmn/css which is CSS library built on top of Twailwind
