@@ -28,10 +28,10 @@
 <main
 	class="vtmn-border-double vtmn-border-2 vtmn-border-grey vtmn-rounded-3xl"
 >
-	<div class="vtmn-border-b-4 vtmn-border-orange vtmn-rounded-br">
+	<div class="vtmn-border-b-4 mobile:vtmn-rounded-b-3xl vtmn-border-orange vtmn-rounded-br vtmn-rounded-b vtmn-rounded-4xl">
 		<!--logo-->
 		<img
-			class="logo"
+			class="vtmn-w-2/12 logo"
 			src="./Logos_Web/Logo_Decathlon_RVB.png"
 			alt="Decathlon Logo"
 		/>
@@ -77,19 +77,27 @@
 			margin-left: 5%;
 			margin-top: 5%;
 		}
+		.logo{
+			/*width:100px !important;*/
+		}
+	}
+	@media(max-width:900px){
+		.logo{
+			/*width:200px!important;*/
+		}
 	}
 	.logo {
 		
 		
 		margin-top: 50px;
-		width: 250px;
+		/*width: 300px;*/
 		margin-left: 8%;
 	}
 	.banner{
 		position:relative;
 		right:-5%;
 		z-index:2;
-		height:fit-content(100em);
+		
 	}
 	.carousel{
 		position:relative;
