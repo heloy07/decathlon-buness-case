@@ -29,7 +29,7 @@
 
                         <div
                             class="txt-image 
-                                    mobile:vtmn-text-xs 
+                                    mobile:vtmn-text-sm 
                                     tablet:vtmn-text-sm
                                     small-desktop:vtmn-text-xl 
                                     medium-desktop:vtmn-text-2xl  
@@ -37,11 +37,10 @@
                                     vtmn-text-grey-light-3
                                     "
                         >
-                            <div class="vtmn-text-4xl">
+                            <div class="tablet:vtmn-text-lg vtmn-text-4xl">
                                 {name}
-                                <span class="vtmn-text-lg">{date}</span>
+                                <span class="tablet:vtmn-text-sm vtmn-text-lg">{date}</span>
                             </div>
-
                             {text}
                         </div>
                     </div>
@@ -65,7 +64,7 @@
     }
     img {
         max-width: none;
-        width: 160%;
+        width: 160% ;
     }
     .txt-image {
         position: absolute;
@@ -78,23 +77,16 @@
     }
     @media (max-width: 1200px) {
         .txt-image {
-            top: 25%;
-            left: 40%;
-            width: auto;
+            top: 35%;
+            left: 50%;
+            /*width: auto;*/
         }
     }
     @media (max-width: 600px) {
         .txt-image {
-            display: none;
+            display: block;
         }
     }
 
-    #quote {
-        color: white;
-        position: relative;
-        top: 15%;
-        left: 25%;
-        font-size: 5em;
-        font-family: "Roboto";
-    }
+    
 </style>
