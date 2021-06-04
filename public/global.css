@@ -40,6 +40,7 @@ fonts
 =========
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+
 /*
 =========
 Global styles
@@ -49,6 +50,7 @@ Global styles
 	margin: 0;
 	padding: 0;
 	box-sizing: content-box;
+	
 }
 body{
 	font-family: "Roboto Condensed  (700)", sans-serif;
@@ -67,7 +69,7 @@ title
 
 html,
 body {
-	
+	font-family: "Roboto Condensed  (700)", sans-serif !important
 }
 
 body {
